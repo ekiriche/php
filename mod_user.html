@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Title</title>
+        <link href="css/login.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="login_image">
+        
+        </div>
+        <div class="login_form">
+        <form id="form_log" method="post" action="./mod_user.php">
+            <p class="log_p">Old username</p>
+            <input class="textbox" type="text" name="old_user" value=""/>
+            <br>
+            <p class="log_p">New username(optional)</p>
+            <input class="textbox" type="text" name="new_user" value=""/>
+            <br>
+            <p class="log_p">New password(optional)</p>
+            <input class="textbox" type="text" name="new_pass" value=""/>
+            <br>
+            <input id="button_login" type="submit" name="submit" value="OK"/>
+            <br>
+        </form>
+        </div>
+    </body>
+</html>

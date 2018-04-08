@@ -1,0 +1,40 @@
+body {
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.login_form {
+   margin: auto;
+}
+#form_log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 200px;
+    height: 600px;
+    box-shadow: 0px 0px 40px #000000;
+}
+#button_login {
+    background-color:azure;
+    border-radius: 10px;
+    font-family:sans-serif;
+    padding: 6px;
+}
+.log_p {
+    font-family: sans-serif;
+}
+.textbox {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: azure
+}
+#to_reg
+{
+    font-family: cursive;
+    font-size: 13px;
+}

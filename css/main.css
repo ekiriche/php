@@ -1,0 +1,125 @@
+body {
+    height: 100%;
+}
+#top {
+    height: 100px;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+#center {
+    display: flex;
+    flex-direction: row;
+}
+#authors {
+    position: absolute;
+    right: 10px;
+    font-style: italic;
+    font-family: monospace;
+}
+#exit {
+    position: relative;
+
+}
+#tovary {
+    position: static;
+    border-radius: 10px;
+    height: 63.3vw;
+    width: 98.5vw;
+    border: solid 2px black;
+}
+.center_item {
+    height: 25vw;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#kategory {
+    width: 25vw;
+}
+#user {
+    width: 30vw;
+    position: absolute;
+    right: 1vw;
+}
+#list_header {
+    text-align: center;
+    font-size: 1.6vw;
+}
+#list_elem {
+    border: 1px solid red;
+    cursor: pointer;
+    list-style-type: none;
+    margin: 1vw;
+    font-size: 1.6vw;
+    text-align: center;
+}
+#bottom {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: darkgrey;
+    height: 100px;
+}
+#kek {
+    font-family: sans-serif;
+    position: absolute;
+    padding: 5px;
+    left: 25px;
+    top: 10px;
+}
+#main {
+    height: 100vw;
+    width: 75vw;
+    border: solid 2px beige;
+}
+#authorise {
+    font-size: 1.5vw;
+    margin: 1vw 2vw 2vw 1vw;
+}
+#search_form {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+.search {
+    position: relative;
+    height: 30px;
+    width: 25vw;
+    border-radius: 8px;
+}
+#search_button {
+    margin: 0.5vw;
+    
+}
+#bucket {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    cursor: pointer;
+}
+#bucket_img {
+    height: 50px;
+}
+.search::after {
+    display: block;
+    content: "?";
+}
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+.dropdown_menu {
+   display: none;
+   position: absolute;
+}
+.dropdown:hover .dropdown_menu {
+   display: block;
+}
